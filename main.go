@@ -19,7 +19,7 @@ func main() {
 		// io.WriteString(w, "hello world")
 		// io.WriteString(w, r.Method)  //for startig first
 		temp1 := template.Must(template.ParseFiles("index.html"))
-		//temp1.Execute(w, nil) //second starting
+		// temp1.Execute(w, nil) //second starting
 
 		films := map[string][]film{
 			"films": {
